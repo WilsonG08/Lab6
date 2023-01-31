@@ -1,0 +1,19 @@
+/*todos los script de CSS deberian tener un reseteo
+ El "*" es el selector universal
+El box sixing --> boerder box recalcula
+Solo recalcula el pading y el border*/
+
+
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+
+main{
+    width: 100%; /*para dar el 100% de la pag*/
+    height: 500px;
+    border: 10px solid grey;
+    padding: 26px  35px; /*Son de arriba y abajo*/
+}
